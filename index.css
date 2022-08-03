@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: url(./img/feeding.jpeg) center/cover no-repeat fixed;
+}
+
+
+/* header style */
+nav{
+    background-color: #6b021d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+nav li{
+    display: inline;
+    font-size: 17px;
+    margin-left: 30px;
+} 
+nav button{
+    padding: 13px 20px;
+    font-size: 17px;
+    border: solid 2px #ffc107;
+}
+
+/* section 1 */
+.section1{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./img/kidds.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+.section1_tex{
+    text-align: center;
+    color: white;
+    margin-top: 180px;
+}
+.section1_tex h1{
+    font-size: 75px;
+    line-height: 200px;
+}
+span{
+    color: #eea412;
+}
+.section1_tex p{
+    font-size: 30px;
+    line-height: 75px;
+}
+.section1_tex button{
+    padding: 15px;
+    background-color: #eea412;
+    border: none;
+    border-radius: 5px;
+}
+
+/* section 2 */
+.section2, .section4{
+    padding: 80px;
+    height: 110vh;
+    background-color: white;
+}
+.section2 h1, .section4 h1{
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 43px;
+    font-weight: 500;
+}
+.section2 .food, .feeding{
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.content{
+   text-align: start;
+   margin-right: 50px;
+}
+.food h3, .feeding h3{
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 60px;
+}
+.food p, .feeding p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.content2{
+    margin-left: 50px;
+}
+
+/* CARD SECTION SECTION 3 */
+.section3{
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    height: 100vh;
+    background: transparent;
+}
+.section3 h1,.section5 h1{
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 43px;
+    font-weight: 500;
+    color: white;
+}
+.card{
+    gap: 30px;
+    display: flex;
+}
+.card1, .card2, .card3{
+    width: 30%;
+    height: 500px;
+    padding: 0px 20px;
+    border: solid 2px white;
+}
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 70%;
+}
+.card p{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+.card button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 8px;
+    width: 40%;
+    color: white;
+    border: 2px solid #eea412;
+    background-color: #333333;
+}
+.card1 button, .card2 button{
+    margin-top: 30px;
+}
+
+/* Project section / section 4 */
+.section4>div{
+    display: flex;
+    gap: 30px;
+}
+.project_card1, .project_card2, .project_card3{
+    width: 35%;
+    height: 600px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.project img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 60%;
+}
+.project h3{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 540;
+}
+.project p{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-weight: 100;
+}
+.project button{
+    padding: 8px;
+    width: 40%;
+    color: white;
+    border: 2px solid #eea412;
+    background-color: #333333;
+    margin-top: 40px;
+}
+.project_card1 button{
+    margin-top: 60px
+}
+
+/* section 5 / team  footer*/
+.section5{
+    height: 90vh;
+    padding: 80px;
+}
+.section5>div {
+    display: flex;
+    gap: 30px;
+}
+.team_card1, .team_card2, .team_card3{
+    width: 35%;
+    height: 450px;
+}
+.team h3{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+}
+.team p{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+.footer{
+    background-color: #4c5a7d;
+    padding: 60px 80px;
+}
+.footer>div{
+    display: flex;
+    gap: 60px;
+}
+.side1, .side2, .side3{
+    width: 40%;
+}
+.side1>div{
+    display: flex;
+    margin-top: 15px;
+    gap: 2px;
+}
+.fa-brands{
+    background-color: white;
+    padding: 7px;
+    border-radius: 2px;
+}
+.footer h2{
+   color: white;
+   font-size: 30px;
+   font-weight: 550;
+   line-height: 50px;
+}
+.side1 p{
+    color: #cccccc;
+    line-height: 30px;
+    font-weight: 300;
+}
+.side2 p, .side3 p{
+    color: #cccccc;
+    line-height: 40px;
+    border-bottom: dashed 1px #acabab45;
+}
+footer {
+    text-align: center;
+    background-color: black !important;
+    color: #acabab66;
+    padding: 40px;
+}
+
+/* contact us page */
+.contact_us{
+    background: whitesmoke;
+    height: 110vh;
+    padding: 1px;
+}
+form{
+    width: 50%;
+    margin: auto;
+    height: 90vh;
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+}
+/* form h1{
+    text-align: center;
+    margin-top: 20px;
+} */
+#name{
+    width: 40%;
+    margin-left: auto;
+}
